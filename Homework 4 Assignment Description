@@ -1,0 +1,24 @@
+Background Information
+
+The union of two sets is a new set containing the combined contents of the original two sets. Note that the union of two sets does not contain duplicate items. For example, if object x occurs in set1 as well in set2 then the union of these sets will contain x only once. Note that the union does not affect the contents of set1 and set2.
+
+Example: Suppose that set1 contains the strings a, b, and c; and set contains the strings b, d, and e. The set1 union set2 will contain the strings a, b, c, d, e.
+
+The intersection of two bags is a new bag containing the entries that occur in both of the original two bags. For example, if object x occurs in set1 as well as set2 then it will be included in set1 intersection set2. Note that intersection does not affect the contents of set1 and set2.
+
+Example: Suppose that set1 contains the strings a, b, and c; and set2 contains the strings b, d, and e. The set1 intersection set2 will contain the string b.
+
+In this homework we will implement a new class Set which implements the union and intersection functions as described above. To verify your Set class, write a main function that will:
+
+Takes two sets of integers from an input file setInput.txt, and store them into two separate sets (set1 and set2). You can either use vector or list from STL to implement your sets.
+Combine the two sets using union function and create a new set called setUnion.
+Combine the two sets using intersection function and create a new set called setIntersection.
+Display set1, set2, setUnion, and setIntersection with appropriate labels.
+A sample setInput.txt may look like this:
+
+3 4 5 7 16 12 11 9 8 1 99 75 125
+
+15 4 3 6 1 12 7 8 19 9 -4 -100 77 45
+
+You should submit a single lastnameHW4.zip containing: main.cpp, SetFunctions.h, SetFunctions.cpp, makefile, Readme.txt and setInput.txt. Make sure that you do not inclide any .o files or exe file.
+
