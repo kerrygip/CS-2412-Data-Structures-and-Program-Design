@@ -1,0 +1,11 @@
+Refer to the Programming Guidelines for documenting and submitting homework.
+
+Write a program to evaluate a postfix expression. Your program should perform the following tasks:
+
+Ask for a postfix arithmetic expression.
+Evaluate the expression.
+Display the result.
+It should display an error message if there is an error in the given expression (missing operand, missing operand, etc.)
+Note: Assume that you expression can have following operators only: +, -, *, /
+
+You should submit a single lastnameFirstNameHW5.zip containing: main.cpp, makefile, and Readme.txt.
