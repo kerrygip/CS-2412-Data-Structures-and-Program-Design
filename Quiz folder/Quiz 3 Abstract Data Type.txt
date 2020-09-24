@@ -1,0 +1,21 @@
+1.adt operations indicate 
+	what they do
+
+2. data structures are part of an adts 
+	implementation
+
+3. a c++ class contains members and 
+
+4. adt is collection of objects
+	true
+
+5 container class collection of other objects
+	true
+
+6. relationship between container and objects
+	aggregation
+
+7.container is example of adt
+	true
+
+8. vector is a data structure that can be used to implment container class 

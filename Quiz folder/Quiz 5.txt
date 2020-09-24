@@ -1,0 +1,129 @@
+1. Given the following code:
+
+template < class ItemType>
+bool ArrayStack<ItemType>::doSomething()
+{
+   bool result = false ;
+   if (!isEmpty())
+   {
+      top--;
+      result = true ;
+   }
+   return result;
+}
+
+What method is this?
+push()
+
+peek()
+
+pop() X 
+
+front().
+
+
+2. Given the following code:
+
+template <class ItemType>
+ItemType ArrayStack<ItemType>::doSomething() const
+{
+   if(!isEmpty())
+      return items[top];
+}
+
+What method is this?
+
+
+pop()
+
+peek() X
+ 
+push()
+
+constructor()
+
+
+3. If you implement a stack using an array, where should the bottom element of the stack be placed?
+
+
+
+at the first element of the array - X
+
+mid array for a binomial search
+
+it doesn’t matter
+
+at the end of the array
+
+4. A program can use the operations of the ADT stack without knowing how the operations are implemented.
+
+True
+
+
+5. In a stack the pop method returns the object at the top of the stack.
+T -> F?????? 
+
+6. If the array: // not on quizlet
+6, 2, 7, 13, 5, 4
+is added to a stack, in the order given, which number will be the first number to be removed from the stack?
+4
+
+
+7. What behavior does the stack exhibit?
+last in first out 
+
+8. What behavior does the queue exhibit?
+first in first out 
+
+9. Which of the following is the postfix form of the infix expression: (a + b) * c / d  // not on quizlet
+
+a b + c * d /
+
+10. Which data structure represents a waiting line and limits insertions to be made at the back of the data structure 
+and limits removals to be made from the front?
+Queue
+
+
+11. Given the following queue operations on an empty existing queue called nameQueue.
+
+nameQueue.enqueue(Sid)
+nameQueue.enqueue(Sal)
+nameQueue.enqueue(Sue)
+nameQueue.enqueue(Sam)
+nameQueue.dequeue()
+display (nameQueue.Front())
+
+What name is displayed?
+
+Sal
+
+12. For a stack, the push method places a new item onto the stack. What method for the queue would do a similar task?
+
+dequeue()
+
+enqueue() - X
+
+empty()
+
+front()
+
+13. Which ADT would be best use to model the customers at a bakery who take numbers to mark their turn?
+
+Tree
+Queue - X
+Graph
+Stack
+
+
+14. Which of the following tasks would be a good application of the Queue?
+
+parsing a mathematical expression such as (9 + 5) * 7^ 2
+
+keeping a grocery list
+
+generating random numbers for a game
+
+reading a string of characters - X
+
+15. Queues are important in simulating and analyzing the behavior of complex systems
+T 

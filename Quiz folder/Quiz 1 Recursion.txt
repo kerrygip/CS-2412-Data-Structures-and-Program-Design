@@ -1,0 +1,27 @@
+In a recursive solution, the base case terminates the recursive processing
+
+Base case for a recursive definition of factorial of n is 
+factoria(1)
+
+If a recursive function never reaches a base case
+infinite amount of recursive calls occurs
+
+writeBack(in s:string)
+      if (s is empty)
+            return
+      else
+      {
+            Write the first character of s
+            writeBack(the string beginning at the second character of s)
+      }
+
+displays: the string s
+
+A recursive solution solves a problem by solving smaller instances of the same problem
+T
+
+Iterative solution involves loops
+T
+
+Every recursive function must have a base case
+T

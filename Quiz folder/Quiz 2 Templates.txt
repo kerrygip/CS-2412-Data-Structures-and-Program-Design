@@ -1,0 +1,25 @@
+1. A template in C++ can be one of the following
+	- function and class templates
+
+2. Function templates can only operate with int data type
+	- False
+
+3. Function template is not actual function
+	- True
+4. Function template can be adapted to more than one type or class
+	- True
+
+5. Function templates use template parameter
+	- True
+
+6. Class template is used to create____classes
+	- container
+
+7. Vector is an example of template class
+	- True
+
+8. We can create generic list class that can store object of any type using class template
+	- True
+
+9. Function objects are created with a class with no data and only one member function
+	- True
