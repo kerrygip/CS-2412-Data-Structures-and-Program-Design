@@ -1,0 +1,137 @@
+1. A tree consists of nodes and edges
+T
+
+2. The node at the top of a tree is called its                                          .
+
+Group of answer choices
+
+leaf
+
+sibling
+
+branch
+
+root X 
+
+
+3. Nodes that have same parents are:
+
+Group of answer choices
+
+ancestors
+
+roots
+
+siblings- X
+
+descendants
+
+
+4. The depth of a node (ni) is:
+
+Group of answer choices
+
+the distance between node (ni) and its sibling
+
+the length of longest path from node (ni) to a leaf
+
+the length of unique path from the root to node ni - x
+
+the distance bewteen node ni and its grand parent
+
+
+5. The height of a tree is equal to the ___ of the root.
+
+Group of answer choices
+
+height - X
+
+length 
+
+weight
+
+depth
+
+6. n a binary tree, each node can have at most _ subtrees.
+
+Group of answer choices
+
+0
+
+4
+
+2 - X
+
+1
+
+7. In a binary search tree all elements in left subtree are __  the element in the root node.
+
+Group of answer choices
+
+none of the answers are correct 
+
+higher
+
+less than - X
+
+greater than
+
+
+
+8 .A binary search tree grows from bottom to top.
+
+True
+
+False - X
+
+
+9. A binary tree is  if every level (but the last) have the maximum number of nodes at that level. The last level may have fewer than the maximum possible, but they should be arranged from left to right without any empty spots.
+
+Group of answer choices
+
+None of the answers are correct 
+
+Full Binary Tree
+
+Complete Binary Tree - X
+
+Strictly Binary Tree
+
+
+
+10. All complete binary trees are full binary trees.
+
+True
+
+False - X
+
+
+
+11. An inorder traversal of a binary search tree uses the following order:
+
+
+traverse left subtree, visit root node, traverse right subtree - X
+
+traverse left subtree, traverse right subtree, visit root node
+
+visit root node, traverse left subtree, traverse right subtree
+
+
+
+12.A postorder traversal of an expression tree results in prefix form of expression
+
+Group of answer choices
+
+True
+
+False - X
+
+
+13. An inorder traversal of a binary search tree results in the nodes being visited in sequence by increasing data value
+
+Group of answer choices
+
+True - X
+
+False
+
