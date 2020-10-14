@@ -1,0 +1,178 @@
+Background Information
+
+In this HW assignment we will simulate a car wash and calculate the arrival time, departure time and wait time for each car that came in for a car wash. We will use the following assumptions about our car wash:
+
+Each car takes 3 minutes from start of the car wash to the end.
+
+Only one car can be in the car wash at a time. This mean that if a car enters a car wash at 1:00 PM then no car can enter the car wash till 1:03 PM.
+
+Simulation will start at the opening time of the car wash and will be represented with 0. We do not not care about the actual time as we are interested in time intervals. Example: a car arrived at time 5 means that car arrived 5 minutes after the opening of the car wash.
+
+We will assume that car wash opens at 8:00 AM and closes at 5:00 PM. This implies that car wash is open for 9 hours or 540 minutes.
+
+Simulation will run for number of minutes given by SIMULATION_END_TIME. We will set it to 540 as our car wash is open for 540 minutes.
+
+The arrival time of cars will be stored in the file named arrival_time.txt. The file will list the arrival time of one car per line. The numbers of cars that will come to our car wash will be variable. You can have an input file with arrival time for 5 cars or for 100 cars. Example of input file is given at the end of this handout. Any car that arrives after the closing time given by SIMULATION_END_TIME will not be serviced.
+
+The program will display the following information about each car: car number, arrival time, car wash start time, departure time, wait time, and total time in form of a table.
+
+Arrival time, car wash start time, and departure time will be in minutes from the opening of the car wash.
+
+Arrival time and car wash start time may be same if there are no cars in the car wash.
+
+Wait time is car wash start time – arrival time.
+
+Total time is the departure time – arrival time.
+
+The program will also display the following statistics: total wait time, average wait time, total car wash use time, percentage of time car was was in use.
+
+Hint: Use a Car class to keep track of car number, car arrival time and car wash start time.
+
+Sample Input File:
+
+1
+2
+4
+10
+13
+15
+16
+75
+
+ 
+
+Sample Output (Set SIMULATION_END_TIME to 60 for this example):
+
+Opening Time: 8:00 AM (0 minutes)
+
+Closing Time: 9:00 AM (60 minutes)
+
+Start of Simulation
+
+Car Number
+
+Arrival Time
+
+Car Wash
+Start Time
+
+Departure Time
+
+Wait Time
+
+Total
+Time
+
+1
+
+1
+
+1
+
+4
+
+0
+
+3
+
+2
+
+2
+
+4
+
+7
+
+2
+
+5
+
+3
+
+4
+
+7
+
+10
+
+3
+
+6
+
+4
+
+10
+
+10
+
+13
+
+0
+
+3
+
+5
+
+13
+
+13
+
+16
+
+0
+
+3
+
+6
+
+15
+
+16
+
+19
+
+1
+
+4
+
+7
+
+16
+
+19
+
+22
+
+3
+
+6
+
+8
+
+75
+
+Car arrived after closing time and was not served.
+
+End of Simulation
+
+ 
+
+Statistics:
+
+Total wait time: 9 minutes
+
+Average wait time: 1 minutes and 17 seconds
+
+Total car wash use time: 21 minutes
+
+Percentage of time car was was in use: 35%
+
+Notes:
+
+Use Queue STL to keep track of the arrival time.
+
+Multiple cars can arrive at same time.
+
+Input file is sorted by arrival time.
+
+You should submit a single lastnameFirstNameHW6.zip containing all your code files, makefile, and Readme.txt and arrival_time.txt.
