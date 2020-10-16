@@ -1,0 +1,97 @@
+1.In _____________, the left and right subtrees of any node have heights that differ by at most 1.
+
+all binary serach trees
+
+all binary trees
+
+all trees
+
+balanced binary trees - X
+
+
+2.The traversal of a binary tree is ____
+
+
+O(n^2)
+
+O(1)
+
+O(n) - X
+
+O(Log n)
+
+
+3.The maximum number of comparison for a retrieval operation in a binary search tree is ____
+
+height of the tree - X
+
+length of the tree
+
+number of nodes in the tree
+
+number of leaves in the tree
+
+
+4.Locating a particular item in a balanced search of n nodes requires at most ____ comparisons.
+
+n/2
+
+log(n) - X
+
+n
+
+(n/2) -2
+
+
+5.The post order traversal of the following tree is 
+
+1,3,5,4,2,7,9,8,6
+
+
+6. An Inorder traversal visits a node before it traverses either of the node's subtree.
+
+False
+
+
+7.The height of a binary search tree is sensetive to the order in which items are inserted into the tree.
+
+True
+
+
+8.To remove a leaf in a binary search tree, what must be done?
+
+
+
+set the pointer in the leaf’s parent to nullptr - X
+
+set the pointer in the leaf to nullptr
+
+set the pointer in the root to nullptr
+
+delete the data from the leaf
+
+
+9.If node N is being removed from a binary search tree and has a left child, 
+what must be done if P is the parent of N?
+
+let P adopt the left child of N - X
+
+let the left child of N adopt P
+
+store the data of the left child of N in N
+
+store the data of N in P
+
+
+10. An AVL tree can be balanced with a rotation.
+
+True
+
+
+11. A node in a binary tree can be:
+
+leaf heavy
+
+
+12. AVL Tree is an example of self balancing binary tree.
+True
