@@ -1,0 +1,114 @@
+1.A heap whose root contains the item with the largest search key is called a ______.
+
+minheap
+
+binary heap
+
+maxheap - X
+
+complete heap
+
+ 
+2.A heap whose root contains the item with the smallest search key is called a ______.
+
+binary heap
+
+maxheap
+
+complete heap
+
+minheap - X
+
+ 
+3.A heap is a ______.
+
+full binary tree
+
+table
+
+complete binary tree - X
+
+general tree
+
+ 
+4.In an array-based implementation of a heap, the remove operation is ______.
+
+
+O(1)
+
+O(log n) - X
+
+O(n)
+
+O (n^2)
+
+ 
+5.In an array-based implementation of a heap, the parent of the node in items[i] is always stored in ______.
+
+Group of answer choices
+
+i/2
+
+(i-2)/2
+
+(i-1)/2 - X
+
+i-2
+
+ 
+6.In an array-based implementation of a heap, the add operation is ______.
+
+
+O(1)
+
+O(n)
+
+O(n^2)
+
+O(log n) - X
+
+ 
+7.Since a heap is a complete binary tree, what would be an efficient basis for its implementation?
+
+array or vector based - X
+
+tree based
+
+linked based
+
+graph based
+
+ 
+8.In the worst case, the insertion sort’s comparison occurs ______ times.
+
+
+(n - 1 ) /2 - X
+
+n
+
+n ^ 2
+
+n - 1
+
+ 
+9.The worst scenario for insertion sort is (when data is in given order)
+
+
+9 8 7 6 5 4 3 2 1 - X
+
+5 6 3 8 9 2 1 7 4
+
+8 2 6 4 5 3 7 1 9
+
+1 9 2 8 3 7 4 6 5
+
+ 
+10.The worst case running time of a Shellsort using divide by 2.2 increment is:
+
+n ^ 1.5 - X
+
+n^2
+
+n
+
+log(n)
