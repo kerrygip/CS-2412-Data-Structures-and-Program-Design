@@ -1,0 +1,69 @@
+Quiz 9
+
+1. In the worst case, the insertion sort’s comparison occurs ______ times.
+n^2
+
+n
+
+n/2
+
+n-1
+
+
+
+2. Each merge sort of the process requires ___ major opterations
+
+log n
+
+n/2 - X
+
+n/4
+
+n
+
+
+3.The quicksort is ______ in the worst case.
+
+n ^ 2 - X
+
+n ^ 3
+
+n log n
+
+log n
+
+
+4. The worst scenario for insertion sort is
+
+1 9 2 8 3 7 4 6 5
+
+5 6 3 8 9 2 1 7 4
+
+8 2 6 4 5 3 7 1 9
+
+9 8 7 6 5 4 3 2 1 - X
+
+
+
+
+5.A merge sort operation runs in:
+
+O(n2) time.
+
+O(n) time.
+
+O(n log n) time.- X
+
+O(log n) time.
+
+
+
+6.For large arrays, the insertion sort is prohibitively inefficient.
+T
+
+
+
+
+
+
+
